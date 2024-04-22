@@ -1,0 +1,24 @@
+.search-doctor-container{
+    height: 80vh;
+}
+
+.search-container{
+    height: 100px;
+    padding-top: 20px;
+}
+input{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    background-color:#d2042d;
+    cursor: pointer;
+
+}

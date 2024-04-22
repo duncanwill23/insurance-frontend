@@ -1,0 +1,73 @@
+.message-list-container{
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.message-list {
+    margin: 20px;
+}
+
+.conversation-heading {
+    border-top: black 5px solid;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.conversation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conversation-item {
+    
+    margin-bottom: 40px;
+    background-color: #f0f0f0;
+}
+
+.conversation-info {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-item {
+    margin-bottom: 10px;
+}
+.message-item:nth-child(odd) {
+    background-color: #dedede;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message-item:nth-child(even) {
+    background-color: #dedede;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message-text {
+    margin: 0;
+}
+
+.online{
+    color: green;
+    font-size: 4;
+}
+
+.offline{
+    color: gray;
+    font-size: 4;
+}
+
+.client-display{
+    display: flex;
+    justify-content:baseline;
+}
+
+.doctor-display{
+    display: flex;
+    justify-content:baseline;
+}   
